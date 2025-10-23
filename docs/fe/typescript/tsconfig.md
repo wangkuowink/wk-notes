@@ -68,7 +68,7 @@ tsc --init
 
 ```json
 {
-  "files": ["core.ts", "types.ts", "utils.ts", "wildlife.ts"]
+  "files": ["core.ts", "types.ts", "utils.ts", "wangkuo.ts"]
 }
 ```
 
@@ -109,7 +109,7 @@ tsc --init
 
 ```json
 {
-  "exclude": ["node_modules", "wildlife"]
+  "exclude": ["node_modules", "wangkuo"]
 }
 ```
 

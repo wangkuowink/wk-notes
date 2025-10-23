@@ -89,7 +89,7 @@ function isUrl(string) {
   }
 }
 
-isUrl('wildlife') // false
+isUrl('wangkuo') // false
 
 isUrl('https://github.com/wild2life') // true
 isUrl('https://a.b.c') // true

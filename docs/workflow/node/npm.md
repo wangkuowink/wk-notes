@@ -86,7 +86,7 @@ npm pkg get scripts.test
 ```sh
 npm pkg set <field> <value>
 # 🌰
-npm pkg set name='wildlife' engines.node='>=18'
+npm pkg set name='wangkuo' engines.node='>=18'
 ```
 
 删除 `package.json` 中指定字段

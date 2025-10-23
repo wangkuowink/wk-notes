@@ -13,8 +13,8 @@ function Person(name) {
 }
 
 // 对象实例
-const person1 = new Person('wildlife')
-console.log(person1) // Person {name: 'wildlife'}
+const person1 = new Person('wangkuo')
+console.log(person1) // Person {name: 'wangkuo'}
 ```
 
 ::: tip 构造函数的特征
@@ -38,14 +38,14 @@ console.log(person1) // Person {name: 'wildlife'}
 ```js
 function Person() {}
 
-Person.prototype.name = 'wildlife'
+Person.prototype.name = 'wangkuo'
 
 // 对象实例 person1
 const person1 = new Person()
 // 对象实例 person2
 const person2 = new Person()
 
-console.log(person1.name, person2.name) // 'wildlife' 'wildlife'
+console.log(person1.name, person2.name) // 'wangkuo' 'wangkuo'
 ```
 
 ## `constructor`
@@ -85,7 +85,7 @@ function Person(name) {
 }
 
 // 对象实例
-const person = new Person('wildlife')
+const person = new Person('wangkuo')
 
 person.__proto__ === Person.prototype // true
 Object.getPrototypeOf(person) === Person.prototype // true

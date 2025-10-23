@@ -17,12 +17,12 @@
 <div>
   <div>姓&emsp;&emsp;名： 苏樱</div>
   <div>手&ensp;机&ensp;号： 15912341234</div>
-  <div>电子邮箱： wildlife@1996.com</div>
+  <div>电子邮箱： wangkuo@1996.com</div>
 </div>
 ```
 
 <div>
   <div>姓&emsp;&emsp;名： 苏樱</div>
   <div>手&ensp;机&ensp;号： 15912341234</div>
-  <div>电子邮箱： wildlife@1996.com</div>
+  <div>电子邮箱： wangkuo@1996.com</div>
 </div>

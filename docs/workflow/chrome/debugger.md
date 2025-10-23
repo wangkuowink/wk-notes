@@ -59,7 +59,7 @@ unmonitorEvents(document.body, "click");
 ### ✅ `$_`控制台引用上一次执行的结果
 
 ```js
-'wildlife'.split('')  // ['w', 'i', 'l', 'd', 'l', 'i', 'f', 'e']
+'wangkuo'.split('')  // ['w', 'i', 'l', 'd', 'l', 'i', 'f', 'e']
 $_.reverse() // ['e', 'f', 'i', 'l', 'd', 'l', 'i', 'w']
 $_.join('') // 'e,f,i,l,d,l,i,w'
 ```

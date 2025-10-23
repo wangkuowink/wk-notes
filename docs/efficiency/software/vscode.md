@@ -1,5 +1,5 @@
 ---
-description: '濑户的 Visual Studio Code 配置，记录扩展插件、使用小技巧和个人配置'
+description: '内海的 Visual Studio Code 配置，记录扩展插件、使用小技巧和个人配置'
 ---
 
 # Visual Studio Code 配置

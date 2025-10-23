@@ -156,7 +156,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     activeMatch: '^/efficiency',
   },
   {
-    text: '濑户',
+    text: '内海',
     link: '/wild'
   }
 ]

@@ -42,20 +42,20 @@ const pkgNameReg = ^(?:@[a-z0-9-*~][a-z0-9-*._~]*/)?[a-z0-9-~][a-z0-9-._~]*$
 
 ```json
 {
-  "author": "wildlife <1450198357@qq.com> (https://github.com/wild2life)"
+  "author": "wangkuo <1450198357@qq.com> (https://github.com/wangkuowink)"
 }
 
 {
   "contributors": [
     {
-      "name" : "wildlife",
-      "email" : "1450198357@qq.com",
-      "url" : "https://github.com/wild2life"
+      "name" : "wangkuo",
+      "email" : "572318535@qq.com",
+      "url" : "https://github.com/wangkuowink"
     },
     {
-      "name" : "wildlife",
-      "email" : "1450198357@qq.com",
-      "url" : "https://github.com/wild2life"
+      "name" : "wangkuo",
+      "email" : "572318535@qq.com",
+      "url" : "https://github.com/wangkuowink"
     }
   ]
 }
