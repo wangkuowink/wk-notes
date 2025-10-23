@@ -39,10 +39,10 @@ export default defineConfig({
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/wangkuowink/wk-notes' }],
 
-    // footer: {
-      // message: '转载自 maomao1996',
-      // copyright: 'Copyright © 2019-present maomao',
-    // },
+    footer: {
+      message: '',
+      copyright: 'Copyright © 2025 wangkuo',
+    },
 
     lastUpdated: {
       text: '最后更新于',
