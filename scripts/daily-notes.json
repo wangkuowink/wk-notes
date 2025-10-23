@@ -1,0 +1,78 @@
+[
+  {
+    "text": "2025 年",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "本地部署 DeepSeek 大模型",
+        "link": "/daily-notes/issue-16"
+      },
+      {
+        "text": "使用 rollup 打包用户脚本",
+        "link": "/daily-notes/issue-15"
+      },
+      {
+        "text": "Ubuntu 安装Charles",
+        "link": "/daily-notes/issue-14"
+      },
+      {
+        "text": "浏览器代理插件SwitchyOmega",
+        "link": "/daily-notes/issue-13"
+      },
+      {
+        "text": "从 Windows 到 Ubuntu",
+        "link": "/daily-notes/issue-12"
+      }
+    ]
+  },
+  {
+    "text": "2024 年",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Docker 部署 VITE_GLOB_API_URL 配置",
+        "link": "/daily-notes/issue-11"
+      },
+      {
+        "text": "CSS 函数",
+        "link": "/daily-notes/issue-10"
+      },
+      {
+        "text": "PowerShell 删除命令报错的常见原因及解决办法",
+        "link": "/daily-notes/issue-9"
+      },
+      {
+        "text": "Git 不保留Vben提交记录更新Vben模板",
+        "link": "/daily-notes/issue-8"
+      },
+      {
+        "text": "修改 `node_modules` 中的依赖（打补丁）",
+        "link": "/daily-notes/issue-7"
+      },
+      {
+        "text": "从 VSCode 迁移到 Cursor",
+        "link": "/daily-notes/issue-6"
+      },
+      {
+        "text": "使用 npm 脚本钩子",
+        "link": "/daily-notes/issue-5"
+      },
+      {
+        "text": "Git 修改历史 commits 中的用户名和邮箱",
+        "link": "/daily-notes/issue-4"
+      },
+      {
+        "text": "使用 URLSearchParams 解析 URL 的查询字符串",
+        "link": "/daily-notes/issue-3"
+      },
+      {
+        "text": "修改 DNS 解决 Github 图片资源加载失败",
+        "link": "/daily-notes/issue-2"
+      },
+      {
+        "text": ".npmrc 学习笔记",
+        "link": "/daily-notes/issue-1"
+      }
+    ]
+  }
+]
