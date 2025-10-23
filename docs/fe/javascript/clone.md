@@ -24,16 +24,16 @@
 
 ```js
 const obj1 = {
-  name: 'wildlife',
+  name: 'wangkuo',
   props: { a: 1 },
 }
 
 const obj2 = Object.assign({}, obj1)
-obj2.name = '濑户'
+obj2.name = '内海'
 obj2.props.a++
 
-obj1 // { name: 'wildlife', props: { a: 2 } }
-obj2 // { name: '濑户', props: { a: 2 } }
+obj1 // { name: 'wangkuo', props: { a: 2 } }
+obj2 // { name: '内海', props: { a: 2 } }
 ```
 
 ### `Array.prototype.concat()`
@@ -67,16 +67,16 @@ arr2 // ['arr2', 2, 3, ['arr2', 5]];
 ```js
 /* 对象 */
 const obj1 = {
-  name: 'wildlife',
+  name: 'wangkuo',
   props: { a: 1 },
 }
 
 const obj2 = { ...obj1 }
-obj2.name = '濑户'
+obj2.name = '内海'
 obj2.props.a++
 
-obj1 // { name: 'wildlife', props: { a: 2 } }
-obj2 // { name: '濑户', props: { a: 2 } }
+obj1 // { name: 'wangkuo', props: { a: 2 } }
+obj2 // { name: '内海', props: { a: 2 } }
 
 /* 数组 */
 const arr1 = [1, 2, 3, [4, 5]]
@@ -99,16 +99,16 @@ arr2 // ['arr2', 2, 3, ['arr2', 5]];
 
 ```js
 const obj1 = {
-  name: 'wildlife',
+  name: 'wangkuo',
   props: { a: 1 },
 }
 
 const obj2 = JSON.parse(JSON.stringify(obj1))
-obj2.name = '濑户'
+obj2.name = '内海'
 obj2.props.a++
 
-obj1 // { name: 'wildlife', props: { a: 1 } }
-obj2 // { name: '濑户', props: { a: 2 } }
+obj1 // { name: 'wangkuo', props: { a: 1 } }
+obj2 // { name: '内海', props: { a: 2 } }
 ```
 
 **`JSON.parse(JSON.stringify())` 存在明显的弊端：**

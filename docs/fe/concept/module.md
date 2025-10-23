@@ -33,7 +33,7 @@
 
 ```js
 /* util.js */
-const name = 'wildlife'
+const name = 'wangkuo'
 exports.name = name
 module.exports.log = function () {
   console.log(name)

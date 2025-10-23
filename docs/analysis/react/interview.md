@@ -69,14 +69,14 @@ function App() {
 
 ```jsx
 /* 使用原生标签 */
-<app>wildlife</app>
+<app>wangkuo</app>
 // 等价于
-React.createElement('app', null, 'wildlife')
+React.createElement('app', null, 'wangkuo')
 
 /* 使用自定义组件 */
-<App>wildlife</App>
+<App>wangkuo</App>
 // 等价于
-React.createElement(App, null, 'wildlife')
+React.createElement(App, null, 'wangkuo')
 ```
 
 ## 数据在 `React` 组件中的流动
@@ -118,7 +118,7 @@ function Child(props) {
 
 // 父组件
 function Parent() {
-  return <Child name="wildlife" />
+  return <Child name="wangkuo" />
 }
 ```
 
@@ -157,12 +157,12 @@ function Brother1(props) {
 }
 
 function Brother2(props) {
-  return <button onClick={() => props.onClick('濑户')}>传递数据给兄弟组件</button>
+  return <button onClick={() => props.onClick('内海')}>传递数据给兄弟组件</button>
 }
 
 // 父组件
 function Parent() {
-  const [name, setName] = useState('wildlife')
+  const [name, setName] = useState('wangkuo')
 
   const handleClick = (data) => {
     setName(data)
@@ -209,7 +209,7 @@ function Child() {
 // 父组件
 function Parent() {
   return (
-    <Context.Provider value={{ name: 'wildlife' }}>
+    <Context.Provider value={{ name: 'wangkuo' }}>
       <Child />
     </Context.Provider>
   )

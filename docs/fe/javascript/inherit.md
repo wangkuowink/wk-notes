@@ -87,9 +87,9 @@ function SubType(name) {
   SuperType.call(this, name)
 }
 
-const instance1 = new SubType('wildlife')
+const instance1 = new SubType('wangkuo')
 instance1.colors.push('black')
-console.log('instance1', instance1.name) // 'wildlife'
+console.log('instance1', instance1.name) // 'wangkuo'
 console.log('instance1', instance1.colors) // ['red', 'blue', 'green', 'black']
 
 const instance2 = new SubType('wild2life')
@@ -134,10 +134,10 @@ SubType.prototype.sayAge = function () {
   console.log(this.age)
 }
 
-const instance1 = new SubType('wildlife', 18)
+const instance1 = new SubType('wangkuo', 18)
 instance1.colors.push('black')
 console.log('instance1', instance1.colors) // ['red', 'blue', 'green', 'black']
-instance1.sayName() // 'wildlife'
+instance1.sayName() // 'wangkuo'
 instance1.sayAge() // 18
 
 const instance2 = new SubType('wild2life', 27)
@@ -181,7 +181,7 @@ const person = {
   colors: ['red', 'blue', 'green'],
 }
 const instance1 = object(person)
-instance1.name = 'wildlife'
+instance1.name = 'wangkuo'
 instance1.colors.push('black')
 
 const instance2 = Object.create(person)
@@ -192,7 +192,7 @@ console.log(person.colors) // ['red', 'blue', 'green', 'black', 'white']
 
 ::: warning 注意点
 
-修改 `instance1.name` 时，`instance2.name` 的值并未发生改变，并不是因为 `instance1` 和 `instance2` 有独立的 `name` 值，而是因为 `instance1.name = 'wildlife'` 是给 `instance1` 添加了 `name` 值，并非修改了原型上的 `name` 值
+修改 `instance1.name` 时，`instance2.name` 的值并未发生改变，并不是因为 `instance1` 和 `instance2` 有独立的 `name` 值，而是因为 `instance1.name = 'wangkuo'` 是给 `instance1` 添加了 `name` 值，并非修改了原型上的 `name` 值
 
 ![原型式继承注意点](./images/prototypal-inheritance.png)
 
@@ -283,7 +283,7 @@ SubType.prototype.sayAge = function () {
   alert(this.age)
 }
 
-const instance1 = new SubType('wildlife', 18)
+const instance1 = new SubType('wangkuo', 18)
 instance1.colors.push('a') // ['red', 'blue', 'green', 'a']
 
 const instance2 = new SubType('wild2life', 27)

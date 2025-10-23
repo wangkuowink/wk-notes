@@ -2,16 +2,16 @@ import { basename } from 'node:path'
 import { defineConfig } from 'vitepress'
 import MarkdownPreview from 'vite-plugin-markdown-preview'
 
-import { head, nav, sidebar, algolia } from './configs'
+import { head, nav, sidebar } from './configs'
 
 const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
 
 export default defineConfig({
   outDir: '../dist',
-  base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/blog/',
+  base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/wk-notes/',
 
   lang: 'zh-CN',
-  title: '濑户',
+  title: '内海',
   description: '我的理想永不坠落',
   head,
   lastUpdated: true,
@@ -37,11 +37,11 @@ export default defineConfig({
       label: '目录',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/wild2life/blog' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/wangkuowink/wk-notes' }],
 
     footer: {
-      message: '转载自 maomao1996',
-      copyright: 'Copyright © 2019-present maomao',
+      message: '',
+      copyright: 'Copyright © 2025 wangkuo',
     },
 
     lastUpdated: {
@@ -51,7 +51,6 @@ export default defineConfig({
         timeStyle: 'medium',
       },
     },
-    algolia,
     docFooter: {
       prev: '上一篇',
       next: '下一篇',
@@ -64,21 +63,21 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
 
     /*** 自定义配置 ***/
-    visitor: {
-      badgeId: 'wild2life.blog',
-    },
+    // visitor: {
+    //   badgeId: 'wangkuowink.wk-notes',
+    // },
 
-    comment: {
-      repo: 'wild2life/blog',
-      repoId: 'R_kgDONb9-0Q',
-      category: 'Announcements',
-      categoryId: 'DIC_kwDONb9-0c4ClH5X',
-    },
+    // comment: {
+    //   repo: 'wangkuowink/wk-notes',
+    //   repoId: 'R_kgDONb9-0Q',
+    //   category: 'Announcements',
+    //   categoryId: 'DIC_kwDONb9-0c4ClH5X',
+    // },
   },
 
   /* 生成站点地图 */
   sitemap: {
-    hostname: 'https://wild2life.github.io/blog/',
+    hostname: 'https://wangkuowink.github.io/wk-notes/',
   },
 
   vite: {

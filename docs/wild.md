@@ -11,7 +11,7 @@ aside: false
 }
 </style>
 
-# 濑户 <Badge text="wild2life" />
+# 内海 <Badge text="wild2life" />
 
 ```sh:no-line-numbers
 我的理想永不坠落
@@ -20,10 +20,10 @@ aside: false
 
 **About:**
 
-- [Home](https://wild2life.github.io/blog)
-- [GitHub](https://github.com/wild2life)
-- [濑户](https://wild2life.github.io/blog/) 濑户的成长之路
-- [日常笔记](https://github.com/wild2life/daily-notes) 零零散散啥都记系列（不定期更新）
+- [Home](https://wangkuowink.github.io/wk-notes)
+- [GitHub](https://github.com/wangkuowink)
+- [内海](https://wangkuowink.github.io/wk-notes/) 内海的成长之路
+- [日常笔记](https://github.com/wangkuowink/daily-notes) 零零散散啥都记系列（不定期更新）
 
 **Contact me:**
 

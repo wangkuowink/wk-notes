@@ -9,14 +9,14 @@
 ```js
 function someAsyncFunction() {
   return new Promise(() => {
-    throw new Error('wildlife - try-catch')
+    throw new Error('wangkuo - try-catch')
   })
 }
 
 try {
   const data = await someAsyncFunction()
 } catch (err) {
-  console.log(err.message) // 'wildlife - try-catch'
+  console.log(err.message) // 'wangkuo - try-catch'
 }
 ```
 
@@ -27,16 +27,16 @@ import to from 'await-to-js'
 
 function someAsyncFunction() {
   return new Promise(() => {
-    throw new Error('wildlife')
+    throw new Error('wangkuo')
   })
 }
 
 const [err, data] = await to(someAsyncFunction())
-err && console.log(err.message) // 'wildlife'
+err && console.log(err.message) // 'wangkuo'
 
 /* 传递 errorExt 参数 */
 const [err, data] = await to(someAsyncFunction(), { title: 'await-to-js' })
-err && console.log(err.message, err.title) // 'wildlife' 'await-to-js'
+err && console.log(err.message, err.title) // 'wangkuo' 'await-to-js'
 ```
 
 通过对比可以发现，不光代码简洁了很多，还可以直接使用解构赋值的方式获取结果数据和错误对象

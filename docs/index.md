@@ -3,12 +3,12 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 濑户
+  name: 内海
   text: 今天天气真好
   tagline: 我的理想永不坠落
   image:
     src: /logo.jpg
-    alt: 濑户
+    alt: 内海
   actions:
     - text: 前端物语
       link: /fe/es6/

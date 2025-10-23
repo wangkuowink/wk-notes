@@ -361,7 +361,7 @@ jsonp('https://www.baidu.com/sugrec', {
 document.cookie
 
 /* 写入 */
-document.cookie = 'name=wildlife'
+document.cookie = 'name=wangkuo'
 ```
 
 ::: tip Cookie 的缺点
@@ -404,7 +404,7 @@ document.cookie = 'name=wildlife'
 
 ```js
 /* 存储数据 setItem() */
-localStorage.setItem('name', 'wildlife')
+localStorage.setItem('name', 'wangkuo')
 
 /* 读取数据 getItem() */
 localStorage.getItem('name')
@@ -531,7 +531,7 @@ const objectStore = transaction.objectStore('userInfo')
 const objectStoreRequest = objectStore.get(1)
 objectStoreRequest.onsuccess = function () {
   const data = objectStoreRequest.result
-  data.name = 'wildlife'
+  data.name = 'wangkuo'
   objectStore.put(data)
 }
 ```

@@ -84,7 +84,7 @@ export const NAV_DATA: NavData[] = [
         icon: '/logo.jpg',
         title: '前端日常笔记',
         desc: '日常笔记记录',
-        link: 'https://github.com/wild2life/daily-notes',
+        link: 'https://github.com/wangkuowink/daily-notes',
       },
       // {
       //   icon: '/logo.jpg',

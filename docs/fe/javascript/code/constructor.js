@@ -1,6 +1,6 @@
 /** 基本类型 */
 true.constructor === Boolean // true
-;('wildlife'.constructor ===
+;('wangkuo'.constructor ===
   String(
     // true
     2021,

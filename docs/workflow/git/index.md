@@ -311,7 +311,7 @@ jobs:
           # 当需要操作其他仓库时，需要配置个人的 token（根据需要设置）
           token: ${{ secrets.ACCESS_TOKEN }}
           # 指定仓库（根据需要设置）
-          repository-name: wild2life/blog
+          repository-name: wangkuowink/wk-notes
           # GitHub Pages 读取的分支
           branch: gh-pages
           # 静态文件所在目录
