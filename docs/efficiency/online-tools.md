@@ -64,6 +64,7 @@ description: '收录一些实用的在线工具，免去下载软件的烦恼'
 
 - [Animista](https://animista.net) 在线练习和生成 CSS 动画
 - [CSS Loaders](https://css-loaders.com) 600+ 的 CSS 加载动画
+- [CSS Loaders](https://cssloaders.github.io/) CSS 加载动画
 - [CSS Grid Generator](https://cssgrid-generator.netlify.app) `grid` 布局
 - [Cubic-Bezier](https://cubic-bezier.com) 贝塞尔曲线
 - [WebGradients](https://webgradients.com) 渐变色配色
